@@ -1,0 +1,47 @@
+.green {
+ color: green;
+ border-style: dashed;
+}
+
+#unikalsid{
+color: blue;
+font-size: large;
+}
+
+.ramitis {
+    border-style: double;
+    border-color: black;
+    
+}
+
+#suns {
+    border-style:dashed;
+    border-color: black;
+    margin:20px; 
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+   
+}
+
+ul li {
+    font-style: italic;
+    text-decoration: underline;
+
+}
+ol li {
+    font-style: italic;
+    
+
+}
+body{
+    background-color: aquamarine;
+}
+
+.left {
+    background-color: brown;
+}
+.right {
+    background-color: blue;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mans pirmais HTML dokuments</title>
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+    
+<h1>Sis ir mans <a href="https://www.lipsum.com/feed/html">virsrakst</a></h1>
+
+<!-- P ir rindkopa. -->
+<p>Ārā spīd saule </p>
+
+
+
+
+<h3 class="green">Apkasvirsts suns</h3>
+<p class="green">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum venenatis massa, pellentesque euismod ipsum dignissim in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. <a href="https://en.wiktionary.org/wiki/suspendisse" target="_blank">Suspendisse</a> pulvinar enim non lacus tincidunt faucibus. Maecenas quis dui in dui finibus accumsan ut nec eros. Suspendisse ut velit dignissim, pretium mi ut, aliquet purus. Sed molestie porta ante, tempor pharetra justo euismod vel. Fusce feugiat congue venenatis. Cras fermentum vel dolor ac placerat. Duis id laoreet urna, vel auctor quam. Nam commodo congue lectus, quis consequat metus consequat ut. Nunc imperdiet, metus ut dictum iaculis, urna odio aliquet.</p>
+
+<br>
+
+<h3>Mazaks virsrakts</h3>
+<p id="unikalsid"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum venenatis massa, pellentesque euismod ipsum dignissim in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. <strong>Suspendisse pulvinar enim non lacus tincidunt faucibus.</strong> Maecenas quis dui in dui finibus accumsan ut nec eros. Suspendisse ut velit dignissim, pretium mi ut, aliquet purus. Sed molestie porta ante, tempor pharetra justo euismod vel. Fusce feugiat congue venenatis. Cras fermentum vel dolor ac placerat. Duis id laoreet urna, vel auctor quam. Nam commodo congue lectus, quis consequat metus consequat ut. Nunc imperdiet, metus ut dictum iaculis, urna odio aliquet.</p>
+
+<a href="https://www.lipsum.com/feed/html" target="_blank"> Saite uz  lipsum </a>
+<br>
+
+
+
+<h4> Bilde no interneta</h4>
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Large_format_camera_lens.jpg" height="100px" width="150%" alt="bilde ar pilem">
+
+<h4>bilde no failu sistemas</h4>
+<img src="images/suns.jpg" width="25%">
+
+<div id="suns">
+
+<div class="ramitis left">
+<h4>Pirkuma saraksts</h4>
+<ul>
+    <li> 
+        <a href="https://www.lipsum.com/feed/html" target="_blank"> kakis </a>
+    </li>
+    <li>kakis</li>
+    <li>kakis</li>
+</ul>
+</div>
+
+<div class="ramitis right">
+<h5>Sakartos saraksts </h5>
+    <ol>
+        <li> udens </li>
+        <li> zieps </li>
+    </ol>  
+</div>
+
+</div>
+
+<input id="vecums">
+
+<br>
+
+
+<button id="poga">
+    Spied mani!
+</button>
+<p>Lietotaja vecums ir:<strong id="lietotajavecums"></strong>
+</p>
+
+
+
+</body>
+
+<script>
+document.getElementById("poga").onclick=function(){
+    var vecums = document.getElementById("vecums").value;
+    alert("Poga tika nospiesta");
+    documnet.getElementById("lietotajavecums").innerText=vecums;
+
+};
+</script>
+
+</html>
